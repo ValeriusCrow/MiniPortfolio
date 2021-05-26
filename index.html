@@ -3,42 +3,47 @@
 <head>
     <meta charset="utf-8">
     <title>Valery Tatarinov, front-end developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
 </head>
 <header>
     <nav>
-        <ul>
-       <li><a href="#about">About me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contacts">Contacts</a></li>
+        <ul class="nav__links">
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
     </nav>
-    <h1>Valery Tatarinov, Front-end developer</h1>
+    <h1>VALERY TATARINOV</h1>
 </header>
 <body>
     <section id="about">
     <h2>About me</h2>
-    <img src="profile_pic.jpg" alt="Profile picture">
+    <img src="profile_pic.png" alt="Profile picture">
     <p>Hi, I'm Valery Tatarinov. I've been learning front-end development for 3 months.</p>
     <p>I've completed several projects from "The Complete 2021 Web Development Bootcamp by Angela Yu on Udemy.com.</p>
-    <p>At the moment I'm completing the course by JetBrains on Hyerpskills.org.</p>
+    <p>At the moment I'm completing the course by JetBrains on Hyperskills.org.</p>
     </section>
     <section id="portfolio"></section>
     <h2>Portfolio</h2>
-    <img src="piano.PNG" alt="Virtual Piano Project">
+    <div class="container">
+    <img class="example" src="piano.PNG" alt="Virtual Piano Project">
     <p>Virtual Piano</p>
-    <img src="flashcards.gif" alt="Flashcards Project">
+    <img class="example" src="flashcards.gif" alt="Flashcards Project">
     <p>Flashcards</p>
-    <img src="openspace.gif" alt="Open Space Project">
+    <img class="example" src="openspace.gif" alt="Open Space Project">
     <p>Open Space</p>
+    </div>
     <section id="contacts">
         <h2>Contacts</h2>
-        <a href="https://github.com/ValeriusCrow"><img src="github.png" alt="GitHub Logo"></a>
-        <a href="https://www.facebook.com/ValeriusCrow/"><img src="facebook.png" alt="Facebook Logo"></a>
-        <a href="https://www.instagram.com/valeriuscrow/"><img src="instagram.png" alt="Instagram Logo"></a>
+        <p><a href="mailto: valeriuscrow@gmail.com">valeriuscrow@gmail.com</a></p>
+        <a href="https://github.com/ValeriusCrow"><img class="contact" src="github.png" alt="GitHub Logo"></a>
+        <a href="https://www.facebook.com/ValeriusCrow/"><img class="contact" src="facebook.png" alt="Facebook Logo"></a>
+        <a href="https://www.instagram.com/valeriuscrow/"><img class="contact" src="instagram.png" alt="Instagram Logo"></a>
     </section>
     <footer>
         <p>Created by Valerius Crow </p>
-        <img src="crow%20logo.png" alt="Crow Logo">
+        <img class="logo" src="crow%20logo.png" alt="Crow Logo">
     </footer>
 </body>
 </html>
