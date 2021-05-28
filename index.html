@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <title>Valery Tatarinov, front-end developer</title>
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Titillium+Web:wght@300&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&family=Montserrat&family=Open+Sans&family=Titillium+Web:wght@300&display=swap"
           rel="stylesheet">
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' id='font-awesome-css'
+          media='all' rel='stylesheet' type='text/css'/>
 </head>
 <header>
     <nav>
@@ -15,35 +17,91 @@
             <li><a href="#contacts">Contacts</a></li>
         </ul>
     </nav>
-    <h1>VALERY TATARINOV</h1>
+    <h1 id="site_header">VALERY TATARINOV</h1>
 </header>
 <body>
 <section id="about">
-    <h2>About me</h2>
+    <h2>FRONT-END DEVELOPER</h2>
     <img alt="Profile picture" src="profile_pic.png">
-    <p>Hi, I'm Valery Tatarinov. I've been learning front-end development for 3 months.</p>
+    <p>Welcome to my portfolio, I'm web developer. I've been learning front-end development for 3 months.</p>
     <p>I've completed "The Complete 2021 Web Development Bootcamp" by Angela Yu on Udemy.com.</p>
     <p>At the moment I'm completing the course by JetBrains on Hyperskills.org.</p>
 </section>
 <section id="portfolio">
-    <h2>Portfolio</h2>
+    <h2>PORTFOLIO</h2>
     <img alt="Open Space Project" class="example" src="openspace.gif">
+    <br>
+    <button class="open-window" type="button">INFO</button>
+    <div class="window">
+        <div class="popup-body">
+            <div class="popup-content">
+                <h1>Open Space</h1>
+                <p>You can see the project at the following link: <a href="https://github.com/ValeriusCrow/Open-Space"
+                                                                     target="_blank">Open
+                    Space</a>.</p>
+                <p>I created a web page with control panel that allows you to launch the rocket. This project helped me
+                    to learn JavaScript basics.</p>
+                <button class="close-window" type="button">Close</button>
+            </div>
+        </div>
+    </div>
     <p>Open Space</p>
     <img alt="Flashcards Project" class="example" src="flashcards.gif">
+    <br>
+    <button class="open-window" type="button">INFO</button>
+    <div class="window">
+        <div class="popup-body">
+            <div class="popup-content">
+                <h1>Flashcards</h1>
+                <p>You can see the project at the following link: <a href="https://github.com/ValeriusCrow/Flashcards"
+                                                                     target="_blank">Flashcards</a>.</p>
+                <p>I created a web page with flip-down flash cards to improve my understanding of HTML and CSS.</p>
+                <button class="close-window" type="button">Close</button>
+            </div>
+        </div>
+    </div>
     <p>Flashcards</p>
     <img alt="Virtual Piano Project" class="example" src="piano.PNG">
+    <br>
+    <button class="open-window" type="button">INFO</button>
+    <div class="window">
+        <div class="popup-body">
+            <div class="popup-content">
+                <h1>Virtual Piano</h1>
+                <p>You can see the project at the following link: <a href="https://github.com/ValeriusCrow/Virtual-Piano"
+                                                                    target="_blank">Virtual Piano</a>.</p>
+                <p>I created a web page with control panel that allows you to play virtual piano.</p>
+                <button class="close-window" type="button">Close</button>
+            </div>
+        </div>
+    </div>
     <p>Virtual Piano</p>
 </section>
 <section id="contacts">
-    <h2>Contacts</h2>
+    <h2>CONTACTS</h2>
     <p><a href="mailto: valeriuscrow@gmail.com">valeriuscrow@gmail.com</a></p>
-    <a href="https://github.com/ValeriusCrow"><img alt="GitHub Logo" class="contact" src="github.png"></a>
-    <a href="https://www.facebook.com/ValeriusCrow/"><img alt="Facebook Logo" class="contact" src="facebook.png"></a>
-    <a href="https://www.instagram.com/valeriuscrow/"><img alt="Instagram Logo" class="contact" src="instagram.png"></a>
+    <ul class="contact__links">
+        <li><a href="https://github.com/ValeriusCrow" target="_blank">
+            <i class="fab fa-github-alt">
+            </i>
+        </a>
+        </li>
+        <li><a href="https://www.facebook.com/ValeriusCrow/" target="_blank">
+            <i class="fab fa-facebook-f">
+            </i>
+        </a>
+        </li>
+        <li><a href="https://www.instagram.com/valeriuscrow/" target="_blank">
+            <i class="fab fa-instagram">
+            </i>
+        </a>
+        </li>
+    </ul>
 </section>
 <footer>
     <p>© 2021 Valerius Crow</p>
     <img alt="Crow Logo" class="logo" src="crow%20logo.png">
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
