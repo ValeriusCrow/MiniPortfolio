@@ -128,13 +128,13 @@ footer {
     background-color: #2E3445;
     overflow: hidden;
     box-shadow: 0 2px 10px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 20%);
-
 }
 
 section {
     font-size: 1.2rem;
-    margin: 0 auto;
+    margin: -40px auto auto;
     width: 30rem;
+    padding-top: 40px;
 }
 
 #about p {
@@ -249,4 +249,8 @@ section {
 #about > img {
     height: 100%;
     width: 150px;
+}
+
+@media (max-width: 767px) {
+
 }
