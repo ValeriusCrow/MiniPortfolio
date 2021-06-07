@@ -251,6 +251,7 @@ section {
 }
 
 #about > img {
+    height: inherit;
     width: 150px;
 }
 
