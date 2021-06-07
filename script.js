@@ -30,7 +30,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 //Меню-бургер
-const iconMenu = document.querySelector(".menu__icon");
+const iconMenu = document.querySelector(".hamburger");
 if (iconMenu){
     iconMenu.addEventListener("click", function (e) {
         document.body.classList.toggle("_lock");
