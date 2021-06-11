@@ -255,10 +255,6 @@ section {
     width: 150px;
 }
 
-@media (min-width: 900px) {
-
-}
-
 @media screen and (max-width: 899px) {
     #site_header {
         padding-top: 4rem;
