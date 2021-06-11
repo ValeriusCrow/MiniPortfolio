@@ -227,6 +227,7 @@ section {
 .nav__links a {
     color: #DBE8D4;
     line-height: 3em;
+    padding: 8px;
 }
 
 .nav__links li a:hover, a:hover, a:focus {
