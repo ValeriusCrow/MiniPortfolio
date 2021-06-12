@@ -113,6 +113,10 @@ section {
     text-align: center;
 }
 
+.open-window, .close-window {
+    margin-top: 25px;
+}
+
 .open-window:hover, .close-window:hover {
     color: #73CCA8;
     box-shadow: 0 2px 10px 0 rgb(0 0 0 / 40%), 0 1px 5px 0 rgb(0 0 0 / 40%);
@@ -121,7 +125,6 @@ section {
 
 .open-window:active, .close-window:active {
     color: #222733;
-
 }
 
 .popup-body {
@@ -228,6 +231,10 @@ section {
     color: #73CCA8;
 }
 
+.popup-content a {
+    color: #73CCA8;
+}
+
 .window {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
@@ -258,6 +265,10 @@ section {
 
 #portfolio p {
     padding-bottom: 1em;
+}
+
+#post-adress a {
+    color: #73CCA8;
 }
 
 #site_header {
